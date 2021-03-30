@@ -3,12 +3,12 @@ body {
     font-size: 14px;
     line-height: 1.42;
     font-weight: 400;
-    /*background-color: #17191C;*/
     background-color: #17191C;
     color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
+    
 }
 a {
     color: inherit;
@@ -172,13 +172,13 @@ p {
     width: 306px;
 }
 
-.btn__color__white {
+.btn__color--white {
     background-color: white;
     border: solid #FF5500 2px;
     padding: 16px 53px;
     color: #FF5500;
 }
-.btn__color__white:hover {
+.btn__color--white:hover {
     background-color: #FF5500;
     color: white;
 }
@@ -188,14 +188,16 @@ p {
 .promotions__section {
     margin-bottom: 53px;
 }
-.promo {
+.promo__item {
     display: inline-block;
     width: 557px;
     vertical-align: top;
     position: relative;
     margin-right: 21px;
+    min-height: 394px;
+    
 }
-.promo:last-child {
+.promo__item:last-child {
     margin-right: 0;
 }
 .promo__image {
@@ -203,14 +205,18 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
 }
 .promo__text {
-    position: absolute;
-    left: 0;
+    /*position: absolute;*/
+    /*left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;*/
     padding: 22px 32px;
     min-height: 140px;
+    margin-top: 234px;
+    z-index: 1;
+    position: relative;
 }
 .promotions__title {
     font-size: 36px;
@@ -241,18 +247,18 @@ p {
 .promo__title-two {
     margin-bottom: 13px;
 }
-.paginator {
+.pager {
     text-align: center;
 }
-.paginator__display,.paginator__list {
+.pager__display,.pager__list {
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
 }
-.paginator__display {
+.pager__display {
     margin-right: 26px;
 }
-.paginator__item {
+.pager__item {
     display: inline-block;
     vertical-align: middle;
 }
