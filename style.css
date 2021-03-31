@@ -37,31 +37,44 @@ p {
     margin: 0 auto;
     width: 1142px;
 }
+.header-wrap {
+    height: 120px;
+    margin-bottom: 81px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
 .header {
     height: 120px;
-    position: relative;
-    margin-bottom: 107px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
 }
 .logo {
     display: block;
-    position: absolute;
+    /*position: absolute;*/
     top: 15px;
     left: 0;
 }
 .menu {
-    position: absolute;
-    top: 33px;
-    left: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    margin-left: 45px;
+    
+    
+}
+.menu__list {
+    display: flex;
 }
 .contacts {
-    position: absolute;
     top: 19px;
     right: 0;
 }
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
+    display: block;
+    margin-right: 54px;
 }
 .menu__link {
     font-size: 14px;
@@ -73,6 +86,7 @@ p {
 .contacts {
     font-style: normal;
     text-align: right;
+    margin-top: 5px;
 }
 .contacts__phone {
     text-decoration: none;
@@ -90,20 +104,43 @@ p {
     margin: 0 auto 233px;
     text-align: center; 
 }
+.head {
+    width: 1150px;
+    height: 58px;
+    margin: 0 auto 128px;
+    text-align: left; 
+}
+.breadcrumbs__list {
+    display: flex;
+    margin-bottom: 10px;
+}
+.breadcrumbs__separator {
+    margin-right: 5px;
+}
+.breadcrumbs__item {
+    margin-right: 5px;
+}
 .heading__title {
     font-size: 72px;
     font-weight: 800;
     line-height: 1.32;
     margin-bottom: 22px;
-   
+    text-transform: uppercase;
+}
+.head__title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.32;
+    margin-bottom: 22px;
+    text-transform: uppercase;
 }
 .heading__explanation {
     font-size: 18px;
-    margin: 0 auto 39px;
+    margin: 0 auto 56px;
     
 }
 .button {
-    display: inline-block;
+    
     background-color: #FF5500;
     border-radius: 35px;
     padding: 18px 53px;
@@ -151,11 +188,13 @@ p {
     color: #000000;
 }
 .service__circs {
+    display: flex;
     margin-bottom: 21px;
+
 }
 .service__item {
     display:inline-block;
-    margin-right: 55px;
+    margin-right: 58px;
     font-size: 16px;
     width: 123px;
     color: #666666;
@@ -167,7 +206,7 @@ p {
     font-size: 14px;
     font-weight: 400;
     color: #666666;
-    margin-bottom: 29px;
+    margin-bottom: 45px;
     line-height: 1.6;
     width: 306px;
 }
@@ -183,17 +222,21 @@ p {
     color: white;
 }
 .promotions {
-    margin-bottom: 148px;
+    margin-bottom: 145px;
 }
 .promotions__section {
-    margin-bottom: 53px;
+    margin-bottom: 57px;
+    /*display: flex;*/
+}
+.promo {
+    display: flex;
 }
 .promo__item {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 557px;
     vertical-align: top;
     position: relative;
-    margin-right: 21px;
+    margin-right: 24px;
     min-height: 394px;
     
 }
@@ -208,10 +251,6 @@ p {
     position: absolute;
 }
 .promo__text {
-    /*position: absolute;*/
-    /*left: 0;
-    right: 0;
-    bottom: 0;*/
     padding: 22px 32px;
     min-height: 140px;
     margin-top: 234px;
@@ -249,22 +288,29 @@ p {
 }
 .pager {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pager__display,.pager__list {
-    display: inline-block;
     vertical-align: middle;
     font-size: 16px;
+}
+.pager__list {
+    display: flex;
 }
 .pager__display {
     margin-right: 26px;
 }
 .pager__item {
-    display: inline-block;
     vertical-align: middle;
 }
 .pager__item--active .pager__link {
     background-color: #FF5500;
-
+}
+.paginator__item--active .pager__link {
+    background-color: #FF5500;
+    color: #fff;
 }
 .pager__link {
     display: block;
@@ -275,24 +321,33 @@ p {
     font-weight: bold;
     line-height: 32px;
 }
+.paginator-color {
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 .about:before {
     content: "";
-    display: inline-block;
-    vertical-align: top;
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
     width: 488px;
     height: 502px;
     background: url("img/cameraman.png") center center / cover no-repeat;
 }
+.about {
+    display: flex;
+}
 .about__content {
     background: #fff;
-    padding: 70px 80px;
-    display: inline-block;
+    padding: 67px 83px;
+    padding-bottom: 84px;
     vertical-align: top;
     width: 785px;
     margin-left: -137px;
     margin-top: 97px;
     border-radius: 5px;
-    margin-bottom: 77px;
+    margin-bottom: 99px;
     
 }
 .about__title {
@@ -300,10 +355,10 @@ p {
     font-weight: 800;
     text-transform: uppercase;
     color: #000000;
-    margin-bottom: 36px;
+    margin-bottom: 38px;
 }
 .about__description {
-    margin-bottom: 41px;
+    margin-bottom: 58px;
     width: 501px;
 }
 .about__description p {
@@ -317,24 +372,32 @@ p {
 }
 .about__btn {
     padding: 18px 42px;
+    
 }
 .footer {
     height: 120px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .footer__menu {
-    position: absolute;
-    top: 32px;
-    left: 330px;
+    /*position: absolute;*/
+    margin-left: 50px;
+    
+}
+.menu__list {
+    display: flex;
 }
 .contacts__description {
     color: #9A9A9A;
     font-size: 11px;
+    
 }
+
 .social {
-    top: 24px;
-    right: 261px;
-    position: absolute;
+    display: flex;
+    margin-top: 5px;
+    margin-left: -16px;
 }
 .social__link {
     display: block;
@@ -343,7 +406,7 @@ p {
     height: 36px;
 }
 .social__item {
-    display: inline-block;
+   /* display: inline-block;*/
     vertical-align: middle;
     margin-right: 8px;
 }
@@ -376,4 +439,40 @@ p {
 }
 .main-page-wrapper {
     background: url("img/hero.png") center top no-repeat, url("img/bottom-pic.png") center bottom 308px no-repeat;
+}
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.offers__container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 49px;
+}
+.maincontent {
+    background-color: #fff;
+    padding-top: 74px;
+}
+.offers__description {
+    color: #060606;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 91px;
+}
+.offers__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 38px;
+}
+.offers__description p {
+    color: #060606;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 91px;
+}
+.offers__content {
+    margin: 25px 40px;
 }
