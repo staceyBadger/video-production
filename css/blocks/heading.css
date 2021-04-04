@@ -1,0 +1,31 @@
+.heading {
+    width: 776px;
+    height: 333px;
+    margin: 0 auto 233px;
+    text-align: center; 
+}
+.head {
+    width: 1150px;
+    height: 58px;
+    margin: 0 auto 122px;
+    text-align: left; 
+}
+.heading__title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.32;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.head__title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.32;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.heading__explanation {
+    font-size: 18px;
+    margin: 0 auto 56px;
+    
+}

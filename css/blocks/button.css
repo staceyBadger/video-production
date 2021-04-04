@@ -1,0 +1,22 @@
+.button {
+    
+    background-color: #FF5500;
+    border-radius: 35px;
+    padding: 18px 53px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: #FF3D00;
+}
+.btn__color--white {
+    background-color: white;
+    border: solid #FF5500 2px;
+    padding: 16px 53px;
+    color: #FF5500;
+}
+.btn__color--white:hover {
+    background-color: #FF5500;
+    color: white;
+}

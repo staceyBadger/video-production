@@ -1,0 +1,23 @@
+.header-wrap {
+    height: 120px;
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: space-between;
+    /*margin-top: 18px;*/
+}
+.main-page-wrapper {
+    background: url("/img/hero.png") center top no-repeat, url("/img/bottom-pic.png") center bottom 308px no-repeat;
+}
+.header {
+    height: 120px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.top-line {
+    background: url("/img/top-line.png");
+    margin: 0;
+    padding-bottom: 27px;
+    padding-top: 18px;
+}

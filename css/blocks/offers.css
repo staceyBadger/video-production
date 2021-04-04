@@ -1,0 +1,33 @@
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 14px;
+}
+.offers__container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 49px;
+}
+
+.offers__description {
+    color: #060606;
+    font-size: 16px;
+    margin-bottom: 52px;
+}
+.offers__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.offers__description p {
+    color: #303030;
+    font-size: 16px;
+    line-height: 1.7;
+    
+}
+.offers__content {
+    margin: 9px 58px;
+    margin-right: 0;
+}

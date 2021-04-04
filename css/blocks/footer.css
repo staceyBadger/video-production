@@ -1,0 +1,12 @@
+.footer {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wrap {
+    background-color: #17191C;
+    padding-top: 45px;
+}
+.footer__menu {
+    margin-left: 50px;
+}

@@ -1,0 +1,42 @@
+.pager {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 82px;
+}
+.pager__display,.pager__list {
+    vertical-align: middle;
+    font-size: 16px;
+}
+.pager__list {
+    display: flex;
+}
+.pager__display {
+    margin-right: 26px;
+}
+.pager__item {
+    vertical-align: middle;
+}
+.pager__item--active .pager__link {
+    background-color: #FF5500;
+}
+.paginator__item--active .pager__link {
+    background-color: #FF5500;
+    color: #fff;
+}
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+.paginator-color {
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

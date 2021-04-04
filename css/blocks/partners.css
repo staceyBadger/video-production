@@ -1,0 +1,31 @@
+.partners {
+    background: #F4F5F5;
+    padding: 92px 0;
+    padding-bottom: 0;
+}
+.partners__title {
+    margin-bottom: 70px;
+}
+/*.partners__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}*/
+.partners__list-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+.partners__list-two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+.partners__item {
+    margin-right: 47px;
+}
+.partners__title h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1A1B1E;
+}
