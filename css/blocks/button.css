@@ -1,5 +1,4 @@
 .button {
-    
     background-color: #FF5500;
     border-radius: 35px;
     padding: 18px 53px;
@@ -9,6 +8,7 @@
 }
 .button:hover {
     background-color: #FF3D00;
+    transition: 1s;
 }
 .btn__color--white {
     background-color: white;
@@ -19,4 +19,28 @@
 .btn__color--white:hover {
     background-color: #FF5500;
     color: white;
+    transition: 1s;
+}
+.btn--color--ginger {
+    color: white;
+}
+.btn--color--grey {
+    background: #8E8E8E;
+    color: #fff;
+}
+.btn--color--grey:hover {
+    background: #2B2B2B;
+    transition: 1s;
+}
+.form__btn {
+    margin-right: 14px;
+    padding: 18px 45px;
+}
+.form__btn:last-child {
+    margin-right: 0;
+}
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+    
 }

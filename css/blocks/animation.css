@@ -1,0 +1,53 @@
+.wrapper_animation {
+    background: url("../../img/bg.png");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 643px;
+    width: 1128px;
+    background: url("../../img/rec.png") no-repeat;
+    
+}
+.animation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    animation: myAnimation .9s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+}
+.animation__logo {
+    margin-bottom: 37px;
+}
+.animation__logo-pic {
+    width: 538px;
+    height: 147px;
+}
+@keyframes myAnimation {
+    from {
+        transform: scale(0.1);
+        transform: rotate(30deg);
+        
+        
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    70% {
+        transform: rotate(3deg);
+    }
+    
+    to {
+        transform: scale(1);;
+        opacity: 1;
+        
+    }
+}

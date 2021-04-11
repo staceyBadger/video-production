@@ -22,3 +22,6 @@
 .breadcrumbs__item:last-child::after {
     display: none;
 }
+.breadcrumbs__link-page {
+    font-weight: bold;
+}
