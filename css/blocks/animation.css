@@ -20,7 +20,7 @@
     align-items: center;
     opacity: 0;
     animation: myAnimation 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
     
 }
