@@ -5,6 +5,12 @@
     align-items: center;
     padding-bottom: 82px;
 }
+.paginator-color {
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 .pager__display,.pager__list {
     vertical-align: middle;
     font-size: 16px;
@@ -18,12 +24,14 @@
 .pager__item {
     vertical-align: middle;
 }
-.pager__item--active .pager__link {
+.pager__item--active .pager__link:hover {
     background-color: #FF5500;
+    transition: 1s;
 }
-.paginator__item--active .pager__link {
+.paginator__item--active .pager__link:hover {
     background-color: #FF5500;
     color: #fff;
+    transition: 1s;
 }
 .pager__link {
     display: block;
@@ -33,10 +41,4 @@
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
-}
-.paginator-color {
-    color: #000000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
 }

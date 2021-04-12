@@ -25,10 +25,15 @@
 .review__user-active {
     display: flex;
     align-items: center;
-    color: #2E77A4;
+    color: #202020;
+    text-decoration: none;
     margin-bottom: 11px;
     font-size: 24px;
     font-weight: bold;
+}
+.review__user-active:hover {
+    color: #2E77A4;
+    text-decoration: underline;
 }
 .review__user {
     display: flex;
